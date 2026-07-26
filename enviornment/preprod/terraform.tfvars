@@ -3,6 +3,10 @@ rgx = {
     name     = "preprod-rg"
     location = "East US"
   }
+  rg2 = {
+    name     = "preprod-rg_v1"
+    location = "East US"
+  }
 }
 
 vnet = {
