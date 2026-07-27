@@ -25,6 +25,13 @@ subnet = {
     resource_group_name  = "preprod-rg"
     address_prefixes     = ["10.0.1.0/24"]
   }
+
+    sub2 = {
+    name                 = "preprod-subnet2"
+    virtual_network_name = "preprod-vnet"
+    resource_group_name  = "preprod-rg"
+    address_prefixes     = ["10.0.2.0/24"]
+  }
 }
 
 pip = {
